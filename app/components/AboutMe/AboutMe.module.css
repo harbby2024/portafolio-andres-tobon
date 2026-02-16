@@ -1,0 +1,93 @@
+.about {
+  background: #000;
+  color: #fff;
+  padding: 6rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* =========================
+   HEADER
+========================= */
+.header h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.05em;
+}
+
+.header p {
+  max-width: 900px;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #e0e0e0;
+  margin-bottom: 1.2rem;
+}
+
+/* =========================
+   CÓMO TRABAJO
+========================= */
+.work {
+  margin-top: 4rem;
+}
+
+.work h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+/* =========================
+   CARDS GRID
+========================= */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+}
+
+/* =========================
+   CARD
+========================= */
+.card {
+  position: relative;
+  padding-left: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #eaeaea;
+
+  /* Animación inicial */
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-out;
+}
+
+/* Línea roja vertical */
+.card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: #e1062c;
+}
+
+/* Estado visible (cuando entra al viewport) */
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .about {
+    padding: 4rem 1.5rem;
+  }
+}

@@ -1,0 +1,99 @@
+.navbar {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(14px);
+  padding: 0.5rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* LOGO */
+.logo {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+}
+
+.logo img {
+  object-fit: contain;
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: #fff;
+  padding: 0.25rem;
+  border-radius: 999px;
+}
+
+/* LINKS */
+.menu a {
+  padding: 0.55rem 1.2rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.menu a:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.active {
+  background: #000;
+  color: #fff !important;
+}
+
+/* IDIOMA */
+.lang {
+  display: flex;
+  gap: 0.25rem;
+  padding-left: 0.25rem;
+}
+
+.lang button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.4rem 0.55rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.lang button:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.langActive {
+  background: #fff;
+  color: #000;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .menu a {
+    padding: 0.45rem 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .lang button {
+    font-size: 0.7rem;
+  }
+}

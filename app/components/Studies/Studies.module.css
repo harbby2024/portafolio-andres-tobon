@@ -1,0 +1,56 @@
+.studies {
+  padding: 4rem 2rem;
+  background: #000; /* fondo negro */
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.card {
+  background: transparent; /* fondo transparente */
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logoContainer {
+  margin-bottom: 1rem;
+}
+
+.logoContainer img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain; /* mantiene proporción */
+  border-radius: 12px;
+}
+
+.info h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.info span {
+  display: block;
+  font-size: 0.9rem;
+  color: #f61f3e;
+}
+
+/* Adaptación móvil */
+@media (max-width: 768px) {
+  .logoContainer img {
+    width: 150px;
+    height: 150px;
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "navbar": {
+    "about": "Sobre mí",
+    "portfolio": "Portafolio",
+    "design": "Diseño",
+    "development": "Desarrollo",
+    "contact": "Contáctame"
+  },
+  "hero": {
+    "title": "Diseñador y desarrollador"
+  },
+  "about": {
+    "title": "SOBRE MI",
+    "description1": "Soy Andrés Felipe Tobón, un profesional multidisciplinario que integra el diseño gráfico y el desarrollo de software con un enfoque claro en el negocio. Para mí, lo más importante al diseñar y desarrollar es entender cómo funciona la empresa, sus objetivos y sus necesidades reales, para así crear experiencias de usuario óptimas, funcionales y alineadas con los resultados que busca el cliente.",
+    "description2": "Soy una persona autodidacta, con aprendizaje autónomo constante y orientado a crear soluciones digitales que no solo se vean bien, sino que realmente funcionen.",
+    "workTitle": "Cómo trabajo",
+    "cards": {
+      "business": "Entiendo el negocio antes de diseñar o desarrollar",
+      "ux": "Priorizo la experiencia real del usuario",
+      "learning": "Aprendo de forma constante y autónoma",
+      "adaptability": "Me adapto fácilmente a distintos roles y equipos",
+      "communication": "Comunico ideas de forma clara y simple"
+    }
+  },
+  "technicalSkills": {
+    "title": "Habilidades técnicas",
+    "cards": {
+      "design": {
+        "title": "Diseño y UX/UI",
+        "subtitle": "Qué hago",
+        "points": {
+          "p1": "Material POP",
+          "p2": "Branding interno y externo",
+          "p3": "Diseño gráfico digital e impreso",
+          "p4": "Identidad visual de marca",
+          "p5": "Diseño UI/UX centrado en el usuario"
+        },
+        "techTitle": "Tecnologías",
+        "techs": {
+          "t1": {"label": "Illustrator", "img": "/Illustrator.png"},
+          "t2": {"label": "Photoshop", "img": "/Photoshop.png"},
+          "t3": {"label": "Lightroom", "img": "/Light-room.png"},
+          "t4": {"label": "After Effects", "img": "/affter effects.png"},
+          "t5": {"label": "CapCut", "img": "/CapCut.png"}
+        }
+      },
+      "development": {
+        "title": "Desarrollo de software",
+        "subtitle": "Qué hago",
+        "points": {
+          "p1": "Desarrollo Front-end",
+          "p2": "Integración diseño–código",
+          "p3": "Interfaces optimizadas en performance y UX"
+        },
+        "techTitle": "Tecnologías",
+        "techs": {
+          "t1": {"label": "HTML", "img": "/HTML.png"},
+          "t2": {"label": "CSS", "img": "/CSS.png"},
+          "t3": {"label": "JavaScript", "img": "/JavaScript.png"},
+          "t4": {"label": "React", "img": "/React.png"},
+          "t5": {"label": "Next.js", "img": "/Next.JS.png"},
+          "t6": {"label": "Strapi", "img": "/Strapi.png"},
+          "t7": {"label": "MySQL", "img": "/MySQL.png"}
+        }
+      },
+      "marketing": {
+        "title": "Marketing digital",
+        "subtitle": "Qué hago",
+        "points": {
+          "p1": "Gestión de campañas en Google Ads y Meta Ads",
+          "p2": "Creación de contenido para redes sociales",
+          "p3": "Estrategias orientadas a conversión y OKRs de negocio"
+        },
+        "techTitle": "Tecnologías",
+        "techs": {
+          "t1": {"label": "Meta Ads", "img": "/Meta ADS.png"},
+          "t2": {"label": "Google Ads", "img": "/Google ADS.png"},
+          "t3": {"label": "Google Analytics", "img": "/Google Analytics.png"}
+        }
+      },
+      "architecture": {
+        "title": "Arquitectura y delineación",
+        "subtitle": "Qué hago",
+        "points": {
+          "p1": "Dibujo técnico y planos arquitectónicos",
+          "p2": "Modelado y visualización 3D"
+        },
+        "techTitle": "Tecnologías",
+        "techs": {
+          "t1": {"label": "AutoCAD", "img": "/Autocad.png"},
+          "t2": {"label": "Revit", "img": "/Revit.png"},
+          "t3": {"label": "SketchUp", "img": "/Sketchup.png"}
+        }
+      }
+    }
+  }
+}
